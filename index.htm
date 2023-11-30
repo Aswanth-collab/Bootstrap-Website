@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>website bootstarp - 22.09.23</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Learn Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instructions</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+                </ul>
+                <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="vh-100 bg-dark d-flex justify-content-center">
+        <div class="row p-sm-5 p-3">
+            <div class="col-sm-6 text-white d-flex flex-column justify-content-sm-center">
+                <h1>Become a <span class="text-warning">Web Developer</span></h1>
+                <h1>UI/UX Designer</h1>
+                <p class="fs-5">I will create a responsive website using Bootstrap</p>
+                <button type="button" class="btn btn-lg btn-danger w-50">Contact Us</button>
+
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="./—Pngtree—big-data-isometric-illustration-concept_4860391-2-768x768.png" class="w-100 h-75">
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-info p-5">
+        <div class="row d-sm-flex justify-content-sm-around">
+            <div class="col-sm-3 text-white">
+                <h2>Sign Up to know more details</h2>
+            </div>
+            <div class="col-sm-6">
+                <div class="row d-sm-flex flex-sm-row gap-sm-0 d-flex flex-column gap-3">
+                    <div class="col-sm-8 p-0">
+                        <input placeholder="Enter E-mail Id" class="w-100 h-100 ps-3" />
+                    </div>
+                    <div class="col-sm-4 p-0">
+                        <button type="button" class="btn btn-dark">Discover</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="min-vh-100">
+        <div class="row w-100 p-5 d-flex justify-content-center gap-4">
+            <div
+                class="col-lg-3 col-md-5 bg-dark p-4 text-white d-flex flex-column gap-2 justify-content-center align-items-center rounded-3">
+                <i class="fa-solid fa-laptop fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the
+                    responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div
+                class="col-lg-3 col-md-5 bg-dark p-4 text-white d-flex flex-column gap-2 justify-content-center align-items-center rounded-3">
+                <i class="fa-solid fa-user fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the
+                    responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div
+                class="col-lg-3 col-md-10 bg-dark p-4 text-white d-flex flex-column gap-2 justify-content-center align-items-center rounded-3">
+                <i class="fa-solid fa-users fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Software Design</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the
+                    responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="row p-sm-5 p-3 w-100">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="./—Pngtree—big-data-isometric-illustration-concept_4860391-2-768x768.png"
+                        class="w-100 h-75">
+                </div>
+                <div class="col-sm-6 text-white d-flex flex-column justify-content-sm-center">
+                    <h1 class="text-dark">Learn the Basics</h1>
+                    <p class="fs-5 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit non
+                        est
+                        molestiae placeat blanditiis labore iste necessitatibus perspiciatis ex recusandae quo cumque
+                        officia obcaecati maxime impedit, exercitationem sapiente qui eum. Animi omnis voluptatem sequi
+                        sit error itaque eius ipsam possimus in, impedit ratione illum eum, ullam rem voluptatum esse.
+                    </p>
+                    <button type="button" class="btn btn-primary w-50 p-2 text-white">Read More</button>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="card d-flex w-75 flex-row gap-5 p-5 h-50 border border-white" style="width: 18rem;">
+
+            <div class="card-body bg-dark text-white rounded-3 d-flex flex-column justify-content-center align-items-center gap-2">
+                <i class="fa-solid fa-laptop fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div class="card-body bg-dark text-white rounded-3 d-flex flex-column justify-content-center align-items-center gap-2">
+                <i class="fa-solid fa-user fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div class="card-body bg-dark text-white rounded-3 d-flex flex-column justify-content-center align-items-center gap-2">
+                <i class="fa-solid fa-users fs-5" style="color: #ffffff;"></i>
+                <h5 class="card-title">Software Design</h5>
+                <p class="card-text">We can reduce the css styles using bootstrap and we can easily design the responsive for we page</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div> -->
+    </div>
+    <div class="min-vh-100 bg-primary d-flex flex-column align-items-center p-3">
+        <div class="row w-75 text-white text-center">
+            <h1>Our Interaction</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro in a iusto atque, quam eaque eum ducimus temporibus reiciendis dolorem, possimus odio nostrum ut, adipisci quod soluta maiores? Sed, doloremque.</p>
+        </div>
+        <div class="row w-75 d-flex gap-md-3 gap-lg-1 gap-3 align-content-center justify-content-center justify-content-lg-between">
+            <div class="col-md-5 col-lg-2 bg-white rounded-3 p-3 d-flex flex-column align-items-center">
+                <img src="https://img.freepik.com/free-photo/smiling-female-student-writing-essay-sitting-with-laptop-floor_176420-20219.jpg?w=1060&t=st=1695402463~exp=1695403063~hmac=3322b1a912bd2bc5528ce9b8efd4c0b545ba8107fd97810a87acb17b593175bc" class="w-75 h-50 rounded-circle"/>
+                <h4>John Doe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor nostrum culpa labore. Repellendus, et?</p>
+                <div>
+                    <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                </div>
+
+            </div>
+            <div class="col-md-5 col-lg-2 bg-white rounded-3 p-3 d-flex flex-column align-items-center">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww&w=1000&q=80" class="w-75 h-50 rounded-circle"/>
+                <h4>John Doe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor nostrum culpa labore. Repellendus, et?</p>
+                <div>
+                    <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                </div>
+
+            </div>
+            <div class="col-md-5 col-lg-2 bg-white rounded-3 p-3 d-flex flex-column align-items-center">
+                <img src="https://c0.wallpaperflare.com/preview/200/718/469/business-lady-woman-girl.jpg" class="w-75 h-50 rounded-circle"/>
+                <h4>John Doe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor nostrum culpa labore. Repellendus, et?</p>
+                <div>
+                    <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                </div>
+
+            </div>
+            <div class="col-md-5 col-lg-2 bg-white rounded-3 p-3 d-flex flex-column align-items-center">
+                <img src="https://t4.ftcdn.net/jpg/02/97/24/51/360_F_297245133_gBPfK0h10UM3y7vfoEiBC3ZXt559KZar.jpg" class="w-75 h-50 rounded-circle"/>
+                <h4>John Doe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor nostrum culpa labore. Repellendus, et?</p>
+                <div>
+                    <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
